@@ -4,9 +4,19 @@ public class Person implements Serializable {
     private String name;
     private int age;
 
+    private String sex;
+
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
     }
 
     public String getName() {

@@ -1,0 +1,40 @@
+[
+    {
+        "address": {
+            "zip": "84",
+            "city": "Ha Noi",
+            "street": "Le Van Luong"
+        },
+        "name": "Binh",
+        "phones": [
+            {
+                "number": "1234567890",
+                "type": "Apple"
+            },
+            {
+                "number": "1234567890",
+                "type": "Apple"
+            }
+        ],
+        "age": 20
+    },
+    {
+        "address": {
+            "zip": "83",
+            "city": "Ha Noi",
+            "street": "Tran Phu"
+        },
+        "name": "Lam",
+        "phones": [
+            {
+                "number": "0964803299",
+                "type": "Oppo"
+            },
+            {
+                "number": "0989539860",
+                "type": "Nokia"
+            }
+        ],
+        "age": 22
+    }
+]
