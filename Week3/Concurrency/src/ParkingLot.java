@@ -3,6 +3,8 @@ import java.util.concurrent.Semaphore;
 public class ParkingLot {
     // Tạo một Semaphore với 5 giấy phép, tương ứng với 5 chỗ đậu xe
     private final Semaphore parkingSlots = new Semaphore(5);
+
+
     public void parkCar(int carId) {
         try {
             System.out.println("Car #" + carId + " is trying to enter the parking lot.");
